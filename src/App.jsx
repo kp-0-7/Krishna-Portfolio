@@ -1,4 +1,5 @@
 import './App.css'
+import me from './assets/me.jpg'
 
 function App() {
   return (
@@ -232,20 +233,30 @@ function App() {
       {/* =================================================
           ABOUT
       ================================================= */}
+<section id="about">
+  <h2>About Me</h2>
 
-      <section id="about" className="content-section">
+  <div className="about-content">
 
-        <h2>
-          About Me
-        </h2>
+    <div className="about-text">
+      <p>
+        I'm a first-year student at VIT Vellore studying CSE Core,
+        and I'm interested in technology, development, and building
+        cool projects :D.
+      </p>
 
-        <p>
-          I'm a first-year student in VIT Vellore studying CSE Core
-          and I am interested in technology, development,
-          and building cool projects :D. Also i am really quick learner due to competing in competitions from 1st grade till 10th.
-        </p>
+      <p>
+        I love learning new things, experimenting with ideas,
+        and turning those ideas into something I can actually build.
+      </p>
+    </div>
 
-      </section>
+    <div className="about-photo">
+      <img src={me} alt="Krishnapriya" />
+    </div>
+
+  </div>
+</section>
 
 
       {/* =================================================
