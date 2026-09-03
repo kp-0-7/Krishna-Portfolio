@@ -1,7 +1,11 @@
 import './App.css'
 import me from './assets/me.jpg'
+import bengaluruElevation from './assets/bengaluru-elevation.png'
+
+import { useState } from 'react';
 
 function App() {
+  const [showEnglishProject, setShowEnglishProject] = useState(false);
   return (
     <main>
 
@@ -365,60 +369,107 @@ function App() {
           PROJECTS
       ================================================= */}
 
-      <section id="projects" className="content-section projects-section">
+<section id="projects" className="content-section projects-section">
 
-        <h2>
-          Projects
-        </h2>
+  <h2>
+    Projects
+  </h2>
 
-        <div className="project-card">
-          <h3>3D Map of Bangalore Elevation</h3>
-          <span>Completed</span>
-        </div>
+  {/* 3D ELEVATION PROJECT */}
 
-        <div className="project-card">
-          <h3>
-            2D Map of Bangalore Drainage System
-          </h3>
-          <span>Completed</span>
-        </div>
+  <div
+    className="project-card english-project"
+    onClick={() => setShowEnglishProject(!showEnglishProject)}
+  >
 
-        <div className="project-card">
-          <h3>
-            FPGA-Based Traffic Light Controller
-          </h3>
-          <span>Ongoing</span>
-        </div>
+    <h3>
+      Developed a 3D elevation map of Bengaluru using geospatial data to visualize variations in terrain and elevation
+    </h3>
 
-        <div className="project-card">
-          <h3>
-            FPGA-Based Digital Stopwatch
-          </h3>
-          <span>Ongoing</span>
-        </div>
+    <span>
+      {showEnglishProject ? "Hide Project ↑" : "View Project ↓"}
+    </span>
 
-        <div className="project-card">
-          <h3>
-            FPGA-Based Automatic Elevator Controller
-          </h3>
-          <span>Ongoing</span>
-        </div>
+    {showEnglishProject && (
+      <div className="english-project-preview">
 
-        <div className="project-card">
-          <h3>
-            FPGA-Based Vending Machine Controller
-          </h3>
-          <span>Ongoing</span>
-        </div>
+        <img
+          src={bengaluruElevation}
+          alt="3D elevation map of Bengaluru"
+        />
 
-        <div className="project-card">
-          <h3>
-            FPGA-Based Intelligent Traffic Management System
-          </h3>
-          <span>Ongoing</span>
-        </div>
+      </div>
+    )}
 
-      </section>
+  </div>
+
+
+  {/* DRAINAGE PROJECT */}
+
+  <div className="project-card">
+    <h3>
+      2D Map of Bangalore Drainage System
+    </h3>
+
+    <span>
+      Completed
+    </span>
+  </div>
+
+
+  {/* FPGA PROJECTS */}
+
+  <div className="project-card">
+    <h3>
+      FPGA-Based Traffic Light Controller
+    </h3>
+
+    <span>
+      Ongoing
+    </span>
+  </div>
+
+  <div className="project-card">
+    <h3>
+      FPGA-Based Digital Stopwatch
+    </h3>
+
+    <span>
+      Ongoing
+    </span>
+  </div>
+
+  <div className="project-card">
+    <h3>
+      FPGA-Based Automatic Elevator Controller
+    </h3>
+
+    <span>
+      Ongoing
+    </span>
+  </div>
+
+  <div className="project-card">
+    <h3>
+      FPGA-Based Vending Machine Controller
+    </h3>
+
+    <span>
+      Ongoing
+    </span>
+  </div>
+
+  <div className="project-card">
+    <h3>
+      FPGA-Based Intelligent Traffic Management System
+    </h3>
+
+    <span>
+      Ongoing
+    </span>
+  </div>
+
+</section>
 
 
       {/* =================================================
