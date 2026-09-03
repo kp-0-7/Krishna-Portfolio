@@ -383,8 +383,8 @@ function App() {
   >
 
     <h3>
-      Developed a 3D elevation map of Bengaluru using geospatial data to visualize variations in terrain and elevation
-    </h3>
+  2D Map of Bangalore Drainage System
+</h3>
 
     <span>
       {showEnglishProject ? "Hide Project ↑" : "View Project ↓"}
@@ -408,8 +408,8 @@ function App() {
 
   <div className="project-card">
     <h3>
-      2D Map of Bangalore Drainage System
-    </h3>
+    Developed a 3D elevation map of Bengaluru using geospatial data to visualize variations in terrain and elevation
+  </h3>
 
     <span>
       Completed
