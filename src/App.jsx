@@ -416,60 +416,9 @@ function App() {
     </span>
   </div>
 
-
-  {/* FPGA PROJECTS */}
-
-  <div className="project-card">
-    <h3>
-      FPGA-Based Traffic Light Controller
-    </h3>
-
-    <span>
-      Ongoing
-    </span>
-  </div>
-
-  <div className="project-card">
-    <h3>
-      FPGA-Based Digital Stopwatch
-    </h3>
-
-    <span>
-      Ongoing
-    </span>
-  </div>
-
-  <div className="project-card">
-    <h3>
-      FPGA-Based Automatic Elevator Controller
-    </h3>
-
-    <span>
-      Ongoing
-    </span>
-  </div>
-
-  <div className="project-card">
-    <h3>
-      FPGA-Based Vending Machine Controller
-    </h3>
-
-    <span>
-      Ongoing
-    </span>
-  </div>
-
-  <div className="project-card">
-    <h3>
-      FPGA-Based Intelligent Traffic Management System
-    </h3>
-
-    <span>
-      Ongoing
-    </span>
-  </div>
-
 </section>
+
+    
 
 
       {/* =================================================
@@ -483,11 +432,11 @@ function App() {
         </h2>
 
         <p className="email">
-          krishnapriya.singh2026@vitstudent.ac.in
+          dont wanna leak info rn
         </p>
 
         <p>
-          +91 62382 03638
+          dont wanna leak info rn 
         </p>
 
         <p className="connect">
