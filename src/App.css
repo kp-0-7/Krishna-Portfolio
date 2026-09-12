@@ -2076,3 +2076,130 @@ button:hover {
   }
 
 }
+/* =================================================
+   ACADEMIC HIGHLIGHTS
+================================================= */
+
+.academic-section {
+  text-align: center;
+}
+
+.academic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.academic-card {
+  padding: 30px 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.academic-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(200, 120, 255, 0.7);
+}
+
+.academic-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.7rem;
+}
+
+.academic-card p {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .academic-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+/* =================================================
+   ACADEMIC HIGHLIGHTS
+================================================= */
+
+.academic-section {
+  text-align: center;
+}
+
+.academic-section > h2 {
+  margin-bottom: 35px;
+}
+
+.academic-subtitle {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  opacity: 0.75;
+  text-transform: uppercase;
+}
+
+.academic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto 45px;
+}
+
+.academic-card {
+  padding: 30px 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: transform 0.3s ease, border-color 0.3s ease,
+    background 0.3s ease;
+}
+
+.academic-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(200, 120, 255, 0.7);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.academic-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.7rem;
+}
+
+.academic-card p {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 1rem;
+}
+
+
+/* =================================================
+   MOBILE
+================================================= */
+
+@media (max-width: 768px) {
+
+  .academic-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-bottom: 35px;
+  }
+
+  .academic-subtitle {
+    font-size: 1rem;
+  }
+
+  .academic-card {
+    padding: 25px 18px;
+  }
+
+}

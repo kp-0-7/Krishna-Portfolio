@@ -112,6 +112,7 @@ function App() {
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#achievements">Achievements</a>
+          <a href="#academic">Academic</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
@@ -276,7 +277,6 @@ function App() {
         <div className="skill-list">
 
           <span>Python</span>
-          <span>JavaScript</span>
           <span>React</span>
           <span>Git</span>
           <span>QGIS</span>
@@ -363,7 +363,61 @@ function App() {
         </div>
 
       </section>
+    
+      {/* =================================================
+    ACADEMIC HIGHLIGHTS
+================================================= */}
 
+<section id="academic" className="content-section academic-section">
+
+  <h2>Academic Highlights</h2>
+
+  <h3 className="academic-subtitle">Entrance Performance</h3>
+
+  <div className="academic-grid">
+
+    <div className="academic-card">
+      <h3>98.555</h3>
+      <p>Percentile — KEAM 2026</p>
+    </div>
+
+    <div className="academic-card">
+      <h3>186 / 240</h3>
+      <p>Manipal Entrance Test (MET) 2026</p>
+    </div>
+
+    <div className="academic-card">
+      <h3>Rank 1,700</h3>
+      <p>COMEDK 2026</p>
+    </div>
+
+  </div>
+
+
+  <h3 className="academic-subtitle">CAT 1 2026 performance</h3>
+
+  <div className="academic-grid">
+
+    <div className="academic-card">
+      <h3>50 / 50</h3>
+      <p>Multivariable Calculus</p>
+    </div>
+
+    <div className="academic-card">
+      <h3>48 / 50</h3>
+      <p>Engineering Drawing</p>
+    </div>
+
+    <div className="academic-card">
+      <h3>48 / 50</h3>
+      <p>Applied Chemistry</p>
+    </div>
+
+  </div>
+
+</section>
+
+    
 
       {/* =================================================
           PROJECTS
@@ -383,7 +437,7 @@ function App() {
   >
 
     <h3>
-  2D Map of Bangalore Drainage System
+  2D Map of Bangaluru Drainage System
 </h3>
 
     <span>
@@ -432,12 +486,10 @@ function App() {
         </h2>
 
         <p className="email">
-          dont wanna leak info rn
+          krishnapriya.singh2026@vitstudent.ac.in
         </p>
 
-        <p>
-          dont wanna leak info rn 
-        </p>
+        
 
         <p className="connect">
           Let's connect!
